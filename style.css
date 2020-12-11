@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30%;
+    opacity: .1;
+
+}
+.slide_active {
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+.red {
+    background-color: #F54E3B;
+}
+.green {
+    background-color: #35EB57;
+
+}
+.blue {
+    background-color: #2764D6;
+
+}
+.purple {
+    background-color: #AC5FF5;
+
+}
+.pink {
+    background-color: #F566BA;
+
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* .stop {
+    border: 2px solid #050505;
+    background-color: #FAD355;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+} */
